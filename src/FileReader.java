@@ -67,7 +67,7 @@ class FileReader implements Callable<Integer> {
         }
         try {
             if (contentOfFile != null) {
-                System.out.println("got the file"+ contentOfFile);
+                System.out.println("got the file");
                 isWordExists();
             } else {
                 System.out.println(Constants.IF_FILE_IS_EMPTY);
